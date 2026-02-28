@@ -1,0 +1,11 @@
+server:
+  port: 80
+
+logging:
+  level:
+    com.mipt.bayandinamariya: WARN
+    org.springframework: ERROR
+
+app:
+  debug-mode: false
+  cache-enabled: true
