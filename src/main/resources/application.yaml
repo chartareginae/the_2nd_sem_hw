@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+app:
+  name: TaskManager
+  version: 1.0.0
+  description: "Task Management Application"
+
+logging:
+  level:
+    com.mipt.bayandinamariya: INFO
+    org.springframework.web: INFO
+
+spring:
+  profiles:
+    active: dev
